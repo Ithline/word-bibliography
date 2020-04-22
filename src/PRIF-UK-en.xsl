@@ -11,15 +11,14 @@
 
 	<xsl:template name="Start">
 		<xsl:choose>
-			<xsl:when test="b:Version">
-				<xsl:text>2010.2.02</xsl:text>
-			</xsl:when>
-
 			<xsl:when test="b:XslVersion">
 				<xsl:text>2008</xsl:text>
 			</xsl:when>
+			<xsl:when test="b:StyleName">
+				<xsl:text>PRIFUK en</xsl:text>
+			</xsl:when>
 			<xsl:when test="b:StyleNameLocalized">
-				<xsl:text>PRIFUK - et al</xsl:text>
+				<xsl:text>PRIFUK en</xsl:text>
 			</xsl:when>
 			<xsl:when test="b:GetImportantFields">
 				<b:ImportantFields>
