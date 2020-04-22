@@ -1,1 +1,1 @@
-# word-citations-commenius
+# Microsoft Word Bibliography themes
